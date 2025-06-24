@@ -5,8 +5,6 @@ hide:
 
 # Modelo Entidade-Relacionamento
 
-
-
 > Abaixo está o diagrama que representa o modelo entidade-relacionamento com suas tabelas e relacionamentos:
 
 ![Modelo ER do Dataset E-commerce](Images/modelo_relacional.png)
