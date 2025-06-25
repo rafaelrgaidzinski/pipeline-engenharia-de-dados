@@ -9,7 +9,7 @@ variable "resource_group_name" {
 variable "location" {
   description = "Localização do Databricks"
   type        = string
-  default     = "East US"
+  default     = "westus"
 }
 
 variable "subscription_id" {

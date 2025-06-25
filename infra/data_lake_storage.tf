@@ -5,8 +5,8 @@ resource "random_id" "storage_account_name_unique" {
 # Criar um Azure Data Lake Storage Gen2
 resource "azurerm_storage_account" "storage" {
   name                     = "datalake${random_id.storage_account_name_unique.hex}"
-  resource_group_name      = var.resource_group_name
-  location                 = var.location
+  resource_group_name      = azurerm_resource_group.iac-rg.name
+  location                 = azurerm_resource_group.iac-rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
   account_kind             = "StorageV2"
