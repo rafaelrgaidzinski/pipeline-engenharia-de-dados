@@ -1,0 +1,6 @@
+.venv
+scripts/.env
+test.py
+data/dicts
+notas
+airflow/logs/*
